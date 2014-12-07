@@ -1,0 +1,56 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "nick_skriloff@yahoo.com",
+    "longName": "ReminderPrototype",
+    "projectType": "pebblejs",
+    "resources": {
+        "media": [
+            {
+                "file": "images/menu_icon.png",
+                "menuIcon": true,
+                "name": "IMAGE_MENU_ICON",
+                "type": "png"
+            },
+            {
+                "file": "images/logo_splash.png",
+                "name": "IMAGE_LOGO_SPLASH",
+                "type": "png"
+            },
+            {
+                "file": "images/tile_splash.png",
+                "name": "IMAGE_TILE_SPLASH",
+                "type": "png"
+            },
+            {
+                "file": "fonts/UbuntuMono-Regular.ttf",
+                "name": "MONO_FONT_14",
+                "type": "font"
+            },
+            {
+                "file": "images/pebble.png",
+                "name": "IMAGES_PEBBLE_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/yes.png",
+                "name": "IMAGES_YES_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/no.png",
+                "name": "IMAGES_NO_PNG",
+                "type": "png"
+            }
+        ]
+    },
+    "shortName": "ReminderPrototype",
+    "uuid": "18e9d00a-2783-4895-985f-e57f3a2bf0ce",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}
