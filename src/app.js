@@ -2,6 +2,12 @@
 var UI = require('ui');
 var Vibe = require('ui/vibe');
 var Vector2 = require('vector2');
+// require firebase.js
+//var Firebase = require('/src/js/firebase.js');
+//var Firebase = require('firebase');
+
+//firebase ref
+//var firebaseRef = new Firebase("https://pebblereminder.firebaseio.com/");
 
 //set up cards
 var prompt = new UI.Card({
@@ -62,12 +68,10 @@ function showBodyMessage(answerBody) {
     prompt.hide();
     answer.show();
     setTimeout(function(){
-      watchFace.show();
-      //end of the state
+      watchFace.show();  //end of the state
+      //firebaseRef.set({id:1, description:'test', location:'robotsconf'});
     }, 2000);
 }
-
-
 
 prompt.show();
 
